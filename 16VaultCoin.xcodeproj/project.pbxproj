@@ -3,29 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		740F2BE52EDD9C0E00376232 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BBE2EDD9C0E00376232 /* CoinModel.swift */; };
+		740F2BE62EDD9C0E00376232 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BBF2EDD9C0E00376232 /* TransactionModel.swift */; };
+		740F2BE72EDD9C0E00376232 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BC12EDD9C0E00376232 /* CoreDataManager.swift */; };
+		740F2BE82EDD9C0E00376232 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BC32EDD9C0E00376232 /* Calculator.swift */; };
+		740F2BE92EDD9C0E00376232 /* PortfolioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BC52EDD9C0E00376232 /* PortfolioViewModel.swift */; };
+		740F2BEA2EDD9C0E00376232 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BC72EDD9C0E00376232 /* DesignSystem.swift */; };
+		740F2BEB2EDD9C0E00376232 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BC92EDD9C0E00376232 /* CheckLink.swift */; };
+		740F2BEC2EDD9C0E00376232 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BCA2EDD9C0E00376232 /* InternetViewController.swift */; };
+		740F2BED2EDD9C0E00376232 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BCB2EDD9C0E00376232 /* LoaderViewController.swift */; };
+		740F2BEE2EDD9C0E00376232 /* AddCoinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BCD2EDD9C0E00376232 /* AddCoinView.swift */; };
+		740F2BEF2EDD9C0E00376232 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BCE2EDD9C0E00376232 /* AnalyticsView.swift */; };
+		740F2BF02EDD9C0E00376232 /* CurrencyConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BCF2EDD9C0E00376232 /* CurrencyConverterView.swift */; };
+		740F2BF12EDD9C0E00376232 /* DCACalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BD02EDD9C0E00376232 /* DCACalculatorView.swift */; };
+		740F2BF22EDD9C0E00376232 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BD12EDD9C0E00376232 /* MainTabView.swift */; };
+		740F2BF32EDD9C0E00376232 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BD22EDD9C0E00376232 /* OnboardingView.swift */; };
+		740F2BF42EDD9C0E00376232 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BD32EDD9C0E00376232 /* PortfolioView.swift */; };
+		740F2BF52EDD9C0E00376232 /* ProfitCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BD42EDD9C0E00376232 /* ProfitCalculatorView.swift */; };
+		740F2BF62EDD9C0E00376232 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BD52EDD9C0E00376232 /* SettingsView.swift */; };
+		740F2BF72EDD9C0E00376232 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BD62EDD9C0E00376232 /* TransactionsView.swift */; };
+		740F2BF82EDD9C0E00376232 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BD82EDD9C0E00376232 /* AppDelegate.swift */; };
+		740F2BF92EDD9C0E00376232 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BDA2EDD9C0E00376232 /* ContentView.swift */; };
+		740F2BFA2EDD9C0E00376232 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BE02EDD9C0E00376232 /* SceneDelegate.swift */; };
+		740F2BFB2EDD9C0E00376232 /* VaultCoin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BE12EDD9C0E00376232 /* VaultCoin.xcdatamodeld */; };
+		740F2BFC2EDD9C0E00376232 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740F2BE22EDD9C0E00376232 /* ViewController.swift */; };
+		740F2BFD2EDD9C0E00376232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740F2BD92EDD9C0E00376232 /* Assets.xcassets */; };
+		740F2BFF2EDD9C0E00376232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740F2BDD2EDD9C0E00376232 /* LaunchScreen.storyboard */; };
+		740F2C002EDD9C0E00376232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740F2BDF2EDD9C0E00376232 /* Main.storyboard */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09ADEDA62D4832FB4017ACA6 /* Pods-16VaultCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-16VaultCoin.release.xcconfig"; path = "Target Support Files/Pods-16VaultCoin/Pods-16VaultCoin.release.xcconfig"; sourceTree = "<group>"; };
 		2555885B099AA62590E873A3 /* Pods-16VaultCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-16VaultCoin.debug.xcconfig"; path = "Target Support Files/Pods-16VaultCoin/Pods-16VaultCoin.debug.xcconfig"; sourceTree = "<group>"; };
 		6F5F6CC17ADC93AE3609DF1B /* Pods_16VaultCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_16VaultCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		740F2BBE2EDD9C0E00376232 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		740F2BBF2EDD9C0E00376232 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		740F2BC12EDD9C0E00376232 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		740F2BC32EDD9C0E00376232 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		740F2BC52EDD9C0E00376232 /* PortfolioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewModel.swift; sourceTree = "<group>"; };
+		740F2BC72EDD9C0E00376232 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		740F2BC92EDD9C0E00376232 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		740F2BCA2EDD9C0E00376232 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		740F2BCB2EDD9C0E00376232 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		740F2BCD2EDD9C0E00376232 /* AddCoinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoinView.swift; sourceTree = "<group>"; };
+		740F2BCE2EDD9C0E00376232 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		740F2BCF2EDD9C0E00376232 /* CurrencyConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterView.swift; sourceTree = "<group>"; };
+		740F2BD02EDD9C0E00376232 /* DCACalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCACalculatorView.swift; sourceTree = "<group>"; };
+		740F2BD12EDD9C0E00376232 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		740F2BD22EDD9C0E00376232 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		740F2BD32EDD9C0E00376232 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		740F2BD42EDD9C0E00376232 /* ProfitCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitCalculatorView.swift; sourceTree = "<group>"; };
+		740F2BD52EDD9C0E00376232 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		740F2BD62EDD9C0E00376232 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		740F2BD82EDD9C0E00376232 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		740F2BD92EDD9C0E00376232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		740F2BDA2EDD9C0E00376232 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		740F2BDB2EDD9C0E00376232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740F2BDC2EDD9C0E00376232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		740F2BDE2EDD9C0E00376232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		740F2BE02EDD9C0E00376232 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		740F2BE22EDD9C0E00376232 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		740F2BE42EDD9C0E00376232 /* VaultCoin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VaultCoin.xcdatamodel; sourceTree = "<group>"; };
 		7483B5352ED9A8AC0041193D /* 16VaultCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 16VaultCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7483B56F2ED9A9320041193D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7483B5342ED9A8AC0041193D /* 16VaultCoin */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7483B5672ED9A9320041193D /* 16VaultCoin */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7483B56F2ED9A9320041193D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 16VaultCoin; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7483B5322ED9A8AC0041193D /* Frameworks */ = {
@@ -55,10 +99,101 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		740F2BC02EDD9C0E00376232 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				740F2BBE2EDD9C0E00376232 /* CoinModel.swift */,
+				740F2BBF2EDD9C0E00376232 /* TransactionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		740F2BC22EDD9C0E00376232 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				740F2BC12EDD9C0E00376232 /* CoreDataManager.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		740F2BC42EDD9C0E00376232 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				740F2BC32EDD9C0E00376232 /* Calculator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		740F2BC62EDD9C0E00376232 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				740F2BC52EDD9C0E00376232 /* PortfolioViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		740F2BC82EDD9C0E00376232 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				740F2BC72EDD9C0E00376232 /* DesignSystem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		740F2BCC2EDD9C0E00376232 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				740F2BC92EDD9C0E00376232 /* CheckLink.swift */,
+				740F2BCA2EDD9C0E00376232 /* InternetViewController.swift */,
+				740F2BCB2EDD9C0E00376232 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		740F2BD72EDD9C0E00376232 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				740F2BC82EDD9C0E00376232 /* Components */,
+				740F2BCC2EDD9C0E00376232 /* LoadingView */,
+				740F2BCD2EDD9C0E00376232 /* AddCoinView.swift */,
+				740F2BCE2EDD9C0E00376232 /* AnalyticsView.swift */,
+				740F2BCF2EDD9C0E00376232 /* CurrencyConverterView.swift */,
+				740F2BD02EDD9C0E00376232 /* DCACalculatorView.swift */,
+				740F2BD12EDD9C0E00376232 /* MainTabView.swift */,
+				740F2BD22EDD9C0E00376232 /* OnboardingView.swift */,
+				740F2BD32EDD9C0E00376232 /* PortfolioView.swift */,
+				740F2BD42EDD9C0E00376232 /* ProfitCalculatorView.swift */,
+				740F2BD52EDD9C0E00376232 /* SettingsView.swift */,
+				740F2BD62EDD9C0E00376232 /* TransactionsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		740F2BE32EDD9C0E00376232 /* 16VaultCoin */ = {
+			isa = PBXGroup;
+			children = (
+				740F2BC02EDD9C0E00376232 /* Models */,
+				740F2BC22EDD9C0E00376232 /* Storage */,
+				740F2BC42EDD9C0E00376232 /* Utilities */,
+				740F2BC62EDD9C0E00376232 /* ViewModels */,
+				740F2BD72EDD9C0E00376232 /* Views */,
+				740F2BD82EDD9C0E00376232 /* AppDelegate.swift */,
+				740F2BD92EDD9C0E00376232 /* Assets.xcassets */,
+				740F2BDA2EDD9C0E00376232 /* ContentView.swift */,
+				740F2BDB2EDD9C0E00376232 /* Info.plist */,
+				740F2BDD2EDD9C0E00376232 /* LaunchScreen.storyboard */,
+				740F2BDF2EDD9C0E00376232 /* Main.storyboard */,
+				740F2BE02EDD9C0E00376232 /* SceneDelegate.swift */,
+				740F2BE12EDD9C0E00376232 /* VaultCoin.xcdatamodeld */,
+				740F2BE22EDD9C0E00376232 /* ViewController.swift */,
+			);
+			path = 16VaultCoin;
+			sourceTree = "<group>";
+		};
 		7483B52C2ED9A8AC0041193D = {
 			isa = PBXGroup;
 			children = (
-				7483B5672ED9A9320041193D /* 16VaultCoin */,
+				740F2BE32EDD9C0E00376232 /* 16VaultCoin */,
 				7483B5362ED9A8AC0041193D /* Products */,
 				2CA79ABFD11A498FC03B0FDB /* Pods */,
 				6908900AF2A58B88754DA13E /* Frameworks */,
@@ -88,9 +223,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7483B5672ED9A9320041193D /* 16VaultCoin */,
 			);
 			name = 16VaultCoin;
 			productName = 16VaultCoin;
@@ -135,6 +267,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740F2BFD2EDD9C0E00376232 /* Assets.xcassets in Resources */,
+				740F2BFF2EDD9C0E00376232 /* LaunchScreen.storyboard in Resources */,
+				740F2C002EDD9C0E00376232 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +305,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740F2BE52EDD9C0E00376232 /* CoinModel.swift in Sources */,
+				740F2BE62EDD9C0E00376232 /* TransactionModel.swift in Sources */,
+				740F2BE72EDD9C0E00376232 /* CoreDataManager.swift in Sources */,
+				740F2BE82EDD9C0E00376232 /* Calculator.swift in Sources */,
+				740F2BE92EDD9C0E00376232 /* PortfolioViewModel.swift in Sources */,
+				740F2BEA2EDD9C0E00376232 /* DesignSystem.swift in Sources */,
+				740F2BEB2EDD9C0E00376232 /* CheckLink.swift in Sources */,
+				740F2BEC2EDD9C0E00376232 /* InternetViewController.swift in Sources */,
+				740F2BED2EDD9C0E00376232 /* LoaderViewController.swift in Sources */,
+				740F2BEE2EDD9C0E00376232 /* AddCoinView.swift in Sources */,
+				740F2BEF2EDD9C0E00376232 /* AnalyticsView.swift in Sources */,
+				740F2BF02EDD9C0E00376232 /* CurrencyConverterView.swift in Sources */,
+				740F2BF12EDD9C0E00376232 /* DCACalculatorView.swift in Sources */,
+				740F2BF22EDD9C0E00376232 /* MainTabView.swift in Sources */,
+				740F2BF32EDD9C0E00376232 /* OnboardingView.swift in Sources */,
+				740F2BF42EDD9C0E00376232 /* PortfolioView.swift in Sources */,
+				740F2BF52EDD9C0E00376232 /* ProfitCalculatorView.swift in Sources */,
+				740F2BF62EDD9C0E00376232 /* SettingsView.swift in Sources */,
+				740F2BF72EDD9C0E00376232 /* TransactionsView.swift in Sources */,
+				740F2BF82EDD9C0E00376232 /* AppDelegate.swift in Sources */,
+				740F2BF92EDD9C0E00376232 /* ContentView.swift in Sources */,
+				740F2BFA2EDD9C0E00376232 /* SceneDelegate.swift in Sources */,
+				740F2BFB2EDD9C0E00376232 /* VaultCoin.xcdatamodeld in Sources */,
+				740F2BFC2EDD9C0E00376232 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		740F2BDD2EDD9C0E00376232 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740F2BDC2EDD9C0E00376232 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		740F2BDF2EDD9C0E00376232 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740F2BDE2EDD9C0E00376232 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7483B5492ED9A8AD0041193D /* Debug */ = {
@@ -186,11 +364,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 16VaultCoin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rocket Optain Vault";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -222,11 +402,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 16VaultCoin/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rocket Optain Vault";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,6 +571,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		740F2BE12EDD9C0E00376232 /* VaultCoin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				740F2BE42EDD9C0E00376232 /* VaultCoin.xcdatamodel */,
+			);
+			currentVersion = 740F2BE42EDD9C0E00376232 /* VaultCoin.xcdatamodel */;
+			path = VaultCoin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7483B52D2ED9A8AC0041193D /* Project object */;
 }

